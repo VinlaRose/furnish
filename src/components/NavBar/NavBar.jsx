@@ -5,6 +5,8 @@ import logofurnish from "../../images/logofurnish.PNG";
 
 
 
+
+
 export const NavBar = () => {
     return (
         <div className="navbarContainer">
@@ -23,16 +25,16 @@ export const NavBar = () => {
 
 
       <div className="navbar-right">
-        <a href="/" className="icon"><span class="material-symbols-outlined">
+        <a href="/cart" className="icon"><span class="material-symbols-outlined">
 shopping_cart
 </span></a>
-        <a href="/" className="icon"><span class="material-symbols-outlined">
+        <a href="/fav" className="icon"><span class="material-symbols-outlined">
 favorite
 </span></a>
-        <a href="/" className="icon"><span class="material-symbols-outlined">
+        <a href="/explore" className="icon"><span class="material-symbols-outlined">
 shopping_bag
 </span></a>
-        <a href="/" className="icon"><span class="material-symbols-outlined">
+        <a href="/profile" className="icon"><span class="material-symbols-outlined">
 person
 </span></a>
 

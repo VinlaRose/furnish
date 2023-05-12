@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
- 
+ height: auto;
  
   z-index: 9999;
 }
@@ -11,7 +11,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f1f1f1;
+    background-color: rgb(235, 231, 231);
     /* padding: 10px; */
     
    

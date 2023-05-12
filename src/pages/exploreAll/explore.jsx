@@ -1,5 +1,12 @@
+import { ProductCard } from "../../components/productCard/productCard"
+import "./explore.css"
+
 export const Explore = () => {
     return(
-        <h1>Explore</h1>
+        <div className="exploreContainer">
+            <h1>Explore</h1>
+            <ProductCard/>
+        </div>
+        
     )
 }
