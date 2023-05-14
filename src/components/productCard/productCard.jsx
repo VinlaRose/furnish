@@ -1,17 +1,19 @@
 import "./productCard.css"
-export const ProductCard = () => {
+export const ProductCard = ({name, price, image, category}) => {
+
+  
 return (
     <div className="productCardContainer">
         <div className="imageContainerProductCard">
-            <img src="https://img.freepik.com/free-psd/chair-pillow_176382-880.jpg?w=740&t=st=1683889500~exp=1683890100~hmac=64692690315e1d8e632dade4a3f901c230fae7a72cd325be45a6b11c47fb474d" alt=""/>
+            <img src={image} alt=""/>
             <div className="imageOverlay">
           <p className="imageText">View Product</p>
         </div>
         </div>
         <div className="productDetails">
-        <p className="productName">Candice Rattan Single Seater</p>
-        <p className="productType">Chair</p>
-        <p className="productPrice"> <span>Rs.</span> 800</p>
+        <p className="productName">{name}</p>
+        <p className="productType">{category}</p>
+        <p className="productPrice"> <span>Rs.</span> {price}</p>
 
         </div>
        

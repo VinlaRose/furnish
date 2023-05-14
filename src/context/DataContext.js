@@ -9,7 +9,7 @@ export const DataProvider = ({children}) => {
     console.log(data)
 
     return(
-        <DataContext.Provider value={{name: "Vinla"}}>
+        <DataContext.Provider value={{data}}>
             {children}
         </DataContext.Provider>
     )
